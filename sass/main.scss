@@ -50,4 +50,18 @@ header {
         float: right;
         margin-top: 25px;
     }
+    a {
+        -webkit-transition: color 0.3s; /* Safari */
+        transition: color 0.3s;
+
+    }
+    a:hover {
+        color: #ff3d3d;
+        text-shadow:0px 0px 3px #ff6666;
+        -webkit-transition: color 0.3s; /* Safari */
+        transition: color 0.3s;
+    }
+    #current {
+        color: #ff8000;
+    }
 }
