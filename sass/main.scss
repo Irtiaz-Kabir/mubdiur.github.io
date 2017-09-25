@@ -9,6 +9,10 @@ body { -webkit-animation: repaintChrome infinite 1s; }
     font-family: mybudmojigglish;
     src: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/fonts/budmojigglish.ttf);
 }
+@font-face {
+    font-family: myvtksdejavuregular;
+    src: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/fonts/vtks-deja-vu.regular.ttf);
+}
 body {
     font: 15px/1.5 myAllerFont;
     padding: 0;
