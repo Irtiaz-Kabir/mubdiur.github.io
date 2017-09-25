@@ -95,20 +95,24 @@
 }
 
 .back {
-  background-image: url(https://mubdiur.github.io/img/aGamer.png);
+  background-image: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/img/aGamer.png);
   background-size:cover;
+  background-position: center;
 }
 .top {
   background-image: url(https://askd.github.io/codepen/top.jpg);
   background-size:cover;
+  background-position: center;
 }
 .bottom {
   background-image: url(https://askd.github.io/codepen/bottom.jpg);
   background-size:cover;
+  background-position: center;
 }
 .front {
-  background-image: url(https://mubdiur.github.io/img/aProgrammer.jpg);
+  background-image: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/img/aProgrammer.jpg);
   background-size:cover;
+  background-position: center;
 }
 
 @keyframes example {
