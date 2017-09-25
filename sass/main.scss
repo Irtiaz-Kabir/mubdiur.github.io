@@ -1,7 +1,12 @@
 @-webkit-keyframes repaintChrome {from { padding: 0; } to { padding: 0; }}
 body { -webkit-animation: repaintChrome infinite 1s; }
+
+@font-face {
+    font-family: myAllerFont;
+    src: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/fonts/Aller_Lt.ttf);
+}
 body {
-    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    font: 15px/1.5 myAllerFont;
     padding: 0;
     margin: 0;
     background-color: #f4f4f4;
