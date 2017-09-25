@@ -31,6 +31,7 @@
   color: #fff;
   text-transform: uppercase;
   text-align: center;
+  backface-visibility: hidden;
 }
 .side::before {
   content: '';
