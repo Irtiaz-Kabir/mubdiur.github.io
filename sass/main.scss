@@ -3,7 +3,11 @@ body { -webkit-animation: repaintChrome infinite 1s; }
 
 @font-face {
     font-family: myAllerFont;
-    src: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/fonts/Aller_Lt.ttf);
+    src: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/fonts/Aller_Rg.ttf);
+}
+@font-face {
+    font-family: mybudmojigglish;
+    src: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/fonts/budmojigglish.ttf);
 }
 body {
     font: 15px/1.5 myAllerFont;
