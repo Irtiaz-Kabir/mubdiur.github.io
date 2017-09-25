@@ -28,7 +28,9 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 120px 0;
-  font: 50px/1 'Trebuchet MS', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px; 
+  font-size: 6vw;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
@@ -100,17 +102,17 @@
   background-position: center;
 }
 .top {
-  background-image: url(https://askd.github.io/codepen/top.jpg);
+  background-image: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/img/animeLover.jpg);
   background-size:cover;
   background-position: center;
 }
 .bottom {
-  background-image: url(https://askd.github.io/codepen/bottom.jpg);
+  background-image: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/img/explorer.jpg);
   background-size:cover;
   background-position: center;
 }
 .front {
-  background-image: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/img/aProgrammer.jpg);
+  background-image: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/img/aProgrammerSlide.jpg);
   background-size:cover;
   background-position: center;
 }
