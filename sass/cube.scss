@@ -95,7 +95,7 @@
 }
 
 .back {
-  background-image: url(https://askd.github.io/codepen/back.jpg);
+  background-image: url(https://mubdiur.github.io/img/aGamer.png);
   background-size:cover;
 }
 .top {
@@ -107,7 +107,7 @@
   background-size:cover;
 }
 .front {
-  background-image: url(https://askd.github.io/codepen/front.jpg);
+  background-image: url(https://mubdiur.github.io/img/aProgrammer.jpg);
   background-size:cover;
 }
 
@@ -168,5 +168,3 @@
     100% { transform: translateY(-100px); }
 }
 
-@-webkit-keyframes repaintChrome {from { padding: 0; } to { padding: 0; }}
-body { -webkit-animation: repaintChrome infinite 1s; }
