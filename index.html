@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <script src="./js/web-animations.min.js"></script>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Mubdiur | Home</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -14,13 +16,22 @@
                 <img src="./img/drawing.png" alt="Md. Mubdiur Rahman">
             </div>
             <nav>
-                <ul>
-                    <li><a href="#" id="current">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="topnav">
+                    <li class="normal"><a href="#" id="current">Home</a></li>
+                    <li class="normal"><a href="#">Blog</a></li>
+                    <li class="normal"><a href="#">Portfolio</a></li>
+                    <li class="normal"><a href="#">About me</a></li>
+                    <li class="normal"><a href="#">Contact</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                    </li>
                 </ul>
+                <script>
+                    function myFunction() {
+                        document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+                    }
+                </script>
+
             </nav>
         </div>
     </header>
@@ -45,4 +56,5 @@
         </div>
     </footer>
 </body>
+
 </html>

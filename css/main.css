@@ -65,5 +65,28 @@ header {
     header nav {
       float: none;
       text-align: center; } }
-
-/*# sourceMappingURL=main.css.map */
+  header ul.topnav li.icon {
+    display: none; }
+  @media (max-width: 710px) {
+    header nav ul li.normal {
+      float: left;
+      display: inline;
+      text-align: left; }
+    header ul.topnav li:not(:first-child) {
+      display: none; }
+    header ul.topnav li.icon {
+      float: right;
+      display: inline-block; } }
+  @media screen and (max-width: 710px) {
+    header ul.topnav.responsive {
+      position: relative; }
+    header ul.topnav.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0; }
+    header ul.topnav.responsive li {
+      float: none;
+      display: inline; }
+    header ul.topnav.responsive li a {
+      display: block;
+      text-align: left; } }

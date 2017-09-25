@@ -8,13 +8,13 @@ body {
 .container {
     width: 80%;
     margin: auto;
-    overflow: hidden;
+   overflow: hidden;
 }
 #current {
     color: #090909;
 }
 /* Header */
-header {
+header {  
     background-color: #ffffff;
     color: #ffffff;
     border-bottom: #d2d2d2 1px solid;
@@ -76,7 +76,36 @@ header {
             text-align: center;
         }
     }
+    ul.topnav li.icon {display: none;}
     @media (max-width: 710px) {
-
+        nav ul li.normal{
+            float: left;
+            display: inline;
+            text-align: left;
+        }
+        ul.topnav li:not(:first-child) {display: none;}
+        ul.topnav li.icon {
+          float: right;
+          display: inline-block;
+        }
+    }
+    @media screen and (max-width:710px) {
+        .container {
+            overflow: visible;
+        }
+        ul.topnav.responsive {position: relative;}
+        ul.topnav.responsive li.icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        ul.topnav.responsive li {
+          float: none;
+          display: inline;
+        }
+        ul.topnav.responsive li a {
+          display: block;
+          text-align: left;
+        }
     }
 }
