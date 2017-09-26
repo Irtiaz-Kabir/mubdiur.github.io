@@ -1,6 +1,7 @@
 
 .scene {
   width: 80%;
+  max-width: 950px;
   height: 300px;
   margin: auto;
   margin-top: 50px;
@@ -29,8 +30,7 @@
   background-repeat: no-repeat;
   padding: 120px 0;
   font-family: tr2nregular;
-  font-size: 40px; 
-  font-size: 9vw;
+  font-size: 100px; 
   text-shadow: 0 0 10px #FF8C8C;
   color: #fff;
   text-transform: uppercase;
@@ -175,3 +175,8 @@
     100% { transform: translateY(-100px); }
 }
 
+@media screen and (max-width:950px) {
+  .side {
+    font-size: 9vw;
+  }
+}
