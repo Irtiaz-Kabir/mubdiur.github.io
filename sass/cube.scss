@@ -15,7 +15,7 @@
   height: 300px;
   transform-style: preserve-3d;
   transform: translateZ(-150px) rotateX(0deg);
-  animation: example 15s linear infinite;
+  animation: example 10s ease-in-out infinite;
 }
 
 .side {
