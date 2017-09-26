@@ -51,16 +51,16 @@
 }
 
 .back span {
-  animation: back 15s linear infinite;
+  animation: back 10s ease-in-out infinite;
 }
 .top span {
-  animation: top 15s linear infinite;
+  animation: top 10s ease-in-out infinite;
 }
 .bottom span {
-  animation: bottom 15s linear infinite;
+  animation: bottom 10s ease-in-out infinite;
 }
 .front span {
-  animation: front 15s linear infinite;
+  animation: front 10s ease-in-out infinite;
 }
 /*
 .guides {
