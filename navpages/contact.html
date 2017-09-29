@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<script src="./../js/web-animations.min.js"></script>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mubdiur | Home</title>
+    <link rel="stylesheet" href="./../css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src="./../img/drawing.png" alt="Md. Mubdiur Rahman">
+            </div>
+            <nav>
+                <ul class="topnav">
+                    <li class="normal"><a href="./../index.html">Home</a></li>
+                    <li class="normal"><a href="./blog.html">Blog</a></li>
+                    <li class="normal"><a href="./portfolio.html">Portfolio</a></li>
+                    <li class="normal"><a href="./aboutme.html">About me</a></li>
+                    <li class="normal"><a href="./contact.html" id="current">Contact</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                    </li>
+                </ul>
+                <script>
+                    function myFunction() {
+                        document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+                    }
+                </script>
+
+            </nav>
+        </div>
+    </header>
+    <section>
+    </section>
+    <article class="article-class">
+        <div class="container">
+        </div>
+    </article>
+    <aside class="aside-class">
+        <div class="container">
+        </div>
+    </aside>
+    <footer>
+        <div class="container">
+            <p>This is the footer right now. Copyright &copy; 2017</p>
+        </div>
+    </footer>
+</body>
+</html>
