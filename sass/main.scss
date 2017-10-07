@@ -3,19 +3,19 @@ body { -webkit-animation: repaintChrome infinite 1s; }
 
 @font-face {
     font-family: myAllerFont;
-    src: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/fonts/Aller_Rg.ttf);
+    src: url(../fonts/Aller_Rg.ttf);
 }
 @font-face {
     font-family: mybudmojigglish;
-    src: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/fonts/budmojigglish.ttf);
+    src: url(../fonts/budmojigglish.ttf);
 }
 @font-face {
     font-family: myvtksdejavuregular;
-    src: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/fonts/vtks-deja-vu.regular.ttf);
+    src: url(../fonts/vtks-deja-vu.regular.ttf);
 }
 @font-face {
     font-family: tr2nregular;
-    src: url(https://raw.githubusercontent.com/mubdiur/mubdiur.github.io/master/fonts/tr2nregular.ttf);
+    src: url(../fonts/tr2nregular.ttf);
 }
 body {
     font: 15px/1.5 myAllerFont;
@@ -33,7 +33,8 @@ body {
     color: #090909;
 }
 /* Header */
-header {  
+header {
+    ul.topnav li.icon {display: none;}
     background-color: #ffffff;
     color: #ffffff;
     border-bottom: #d2d2d2 1px solid;
@@ -82,46 +83,89 @@ header {
         transition: color 0.3s;
     }
 
-    @media (max-width: 1000px) {
-        #branding {
-            float: none;
-            margin: auto;
-        }
-        li {
-            float : none;
-        }
-        nav {
-            float: none;
-            text-align: center;
-        }
+
+}
+.myphoto {
+  background-image: url(../img/myself.jpg);
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  background-position: center;
+  background-size: contain;
+  border-radius: 150px;
+}
+
+.homebio {
+  h1 {
+    font-size: 4em;
+    text-align: center;
+    text-align: -webkit-center;
+  }
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1.5em;
+  }
+}
+
+.article-class {
+  color: #3d3d3d;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.25);
+}
+
+
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 1000px) {
+    header #branding {
+        float: none;
+        margin: auto;
     }
-    ul.topnav li.icon {display: none;}
-    @media (max-width: 710px) {
-        nav ul li.normal{
-            float: left;
-            display: inline;
-            text-align: left;
-        }
-        ul.topnav li:not(:first-child) {display: none;}
-        ul.topnav li.icon {
-          float: right;
-          display: inline-block;
-        }
+    header li {
+        float : none;
     }
-    @media screen and (max-width:710px) {
-        ul.topnav.responsive {position: relative;}
-        ul.topnav.responsive li.icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        ul.topnav.responsive li {
-          float: none;
-          display: inline;
-        }
-        ul.topnav.responsive li a {
-          display: block;
-          text-align: left;
-        }
+    header nav {
+        float: none;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 710px) {
+    header nav ul li.normal{
+        float: left;
+        display: inline;
+        text-align: left;
+    }
+    header ul.topnav li:not(:first-child) {display: none;}
+    header ul.topnav li.icon {
+      float: right;
+      display: inline-block;
+    }
+    header ul.topnav.responsive {position: relative;}
+    header ul.topnav.responsive li.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    header ul.topnav.responsive li {
+      float: none;
+      display: inline;
+    }
+    header ul.topnav.responsive li a {
+      display: block;
+      text-align: left;
+    }
+    .myphoto {
+      width: 50vw;
+      height: 50vw;
+      border-radius: 25vw;
     }
 }
