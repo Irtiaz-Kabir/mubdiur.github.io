@@ -27,7 +27,7 @@
   background-repeat: no-repeat;
   padding: 120px 0;
   font-family: tr2nregular;
-  font-size: 6em;
+  font-size: 20pt;
   text-shadow: 0 0 10px #FF8C8C;
   color: #fff;
   text-transform: uppercase;
@@ -208,6 +208,6 @@
     transform: translateY(-100px); } }
 @media screen and (max-width: 950px) {
   .side {
-    font-size: 9vw; } }
+    font-size: 20pt; } }
 
 /*# sourceMappingURL=cube.css.map */
