@@ -88,7 +88,8 @@ header {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  border-radius: 150px; }
+  border-radius: 150px;
+}
 
 .homebio h1 {
   font-size: 4em;
