@@ -208,6 +208,7 @@
     transform: translateY(-100px); } }
 @media screen and (max-width: 900px) {
   .side {
-    font-size: 2em; } }
+    font-size: 3em;
+    font-size: 9vw; } }
 
 /*# sourceMappingURL=cube.css.map */
