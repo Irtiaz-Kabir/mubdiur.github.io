@@ -77,7 +77,26 @@
 /* responsiveness */
 @media screen and (max-width: 504.46px) {
     #navbar {
+        width : 0px;
+        height: 0px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
         visibility: hidden;
+        position: absolute;
+    }
+    #navbar li {
+        font-size: 0px;
+        height: 0px;
+        width: 0px;
+        margin: 0;
+        padding: 0;
+    }
+    #navbar li a {
+        height: 0px;
+        width: 0px;
+        margin: 0;
+        padding: 0;
     }
 }
 @media screen and (max-width: 750px) {
