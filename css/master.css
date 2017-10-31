@@ -1,0 +1,87 @@
+@font-face {
+  font-family: aponabang;
+  src: url(../fonts/AponaLohit.ttf);
+}
+
+* {
+    margin : 0px;
+    padding : 0px;
+    font-family: aponabang;
+}
+
+#header {
+    background-image: url('../img/newhead.jpg');
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid #333;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+#navbar li {
+    font-size: 14pt;
+    display: inline-block;
+    float: left;
+    height: 30px;
+}
+#navbar li a {
+    text-decoration: none;
+    color : #ffffff;
+    text-align: center;
+    padding: 3px 14px 2px 14px;
+    height: 30px;
+}
+#navbar {
+    height: 30px;
+    width: 504.455px;
+    margin: auto;
+}
+#navbar li a:hover {
+    background-color: #111;
+}
+.paneltop {
+    height: 30px;
+    width: 100%;
+    background-color: #333;
+    border-bottom: 1px solid #111;
+    border-top: 1px solid #111;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.active {
+    background-color: #4CAF50;
+}
+#propic {
+    background-image: url('../img/myself.jpg');
+    display: block;
+    margin : auto;
+    width: 15vw;
+    height: 15vw;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    background-size: contain;
+    margin-top: -10vw;
+    margin-left: 10%;
+    border-radius: 400px;
+    border: 1px solid #333;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+#mainsec {
+}
+
+
+
+
+/* responsiveness */
+@media screen and (max-width: 504.46px) {
+    #navbar {
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 750px) {
+    #propic {
+        margin-top: -75px;
+    }
+}

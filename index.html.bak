@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<script src="./js/web-animations.min.js"></script>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mubdiur | Home</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/cube.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src="./img/drawing.png" alt="Md. Mubdiur Rahman">
+            </div>
+            <nav>
+                <ul class="topnav">
+                    <li class="normal">
+                      <a href="./index.html" id="current">Home</a>
+                    </li>
+                    <li class="normal">
+                      <a href="./navpages/blog.html">Blog</a>
+                    </li>
+                    <li class="normal">
+                      <a href="./navpages/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="normal">
+                      <a href="./navpages/aboutme.html">About me</a>
+                    </li>
+                    <li class="normal">
+                      <a href="./navpages/contact.html">Contact</a>
+                    </li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+                    </li>
+                </ul>
+                <script>
+                    function myFunction() {
+                        document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+                    }
+                </script>
+
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="scene">
+            <div class="cube">
+                <div class="side back">
+                    <div class="guides"></div>
+                    <span>GAMER</span>
+                </div>
+                <div class="side top">
+                    <div class="guides"></div>
+                    <span>ANIME LOVER</span>
+                </div>
+                <div class="side bottom">
+                    <div class="guides"></div>
+                    <span>EXPLORER</span>
+                </div>
+                <div class="side front">
+                    <div class="guides"></div>
+                    <span>PROGRAMMER</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <article class="article-class">
+        <div class="container">
+          <div class="myphoto">
+          </div>
+          <div class="homebio">
+            <h1>Hi, I am Mubdiur.</h1>
+            <p>akhajdh</p>
+          </div>
+        </div>
+    </article>
+    <footer>
+        <div class="container">
+            <p>This is the footer right now. Copyright &copy; 2017</p>
+        </div>
+    </footer>
+</body>
+
+</html>
