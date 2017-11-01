@@ -4,24 +4,35 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>মুবদিউর | প্রথম পাতা</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./css/master.css">
     </head>
     <body>
 
         <header id="header">
             <div class="paneltop">
-                <ul id="navbar">
-                    <li><a href="#" class="active">প্রথম পাতা</a></li>
-                    <li><a href="#" >ব্লগ</a></li>
-                    <li><a href="#" >কর্ম প্রদর্শনী</a></li>
-                    <li><a href="#" >আমার সম্পর্কে</a></li>
-                    <li><a href="#" >যোগাযোগ</a></li>
+                <ul class="navbar">
+                    <li class="active"><a href="#" class="normal">প্রথম পাতা</a></li>
+                    <li><a href="#" class="normal">ব্লগ</a></li>
+                    <li><a href="#" class="normal">কর্ম প্রদর্শনী</a></li>
+                    <li><a href="#" class="normal">আমার সম্পর্কে</a></li>
+                    <li><a href="#" class="normal">যোগাযোগ</a></li>
+                    <li class="icon">
+                        <a href="javascript:void(0);" onclick="myFunction()">অন্যান্য <i class="fa fa-caret-down"></i></a>
+                    </li>
                 </ul>
+                <script>
+                    function myFunction() {
+                        document.getElementsByClassName("navbar")[0].classList.toggle("responsive");
+                    }
+                </script>
             </div>
+
         </header>
         <div id="propic">
         </div>
         <section id="mainsec">
+
         </section>
         <footer>
         </footer>

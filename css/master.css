@@ -1,18 +1,19 @@
 @font-face {
-  font-family: aponabang;
-  src: url(../fonts/AponaLohit.ttf);
-}
+    font-family: aponabang;
+    src: url(../fonts/AponaLohit.ttf);
+    }
 
 * {
     margin : 0px;
     padding : 0px;
     font-family: aponabang;
-}
+    }
 body {
     background-image: url('../img/vintage-concrete.png');
     background-position: center;
     background-repeat: repeat;
-}
+    }
+
 #header {
     background-image: url('../img/newhead.jpg');
     height: 200px;
@@ -22,29 +23,29 @@ body {
     background-size: cover;
     border-bottom: 1px solid #333;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-}
-#navbar li {
+    }
+.navbar li {
     font-size: 14pt;
     display: inline-block;
     float: left;
     height: 30px;
-}
-#navbar li a {
+    }
+.navbar li a {
     text-decoration: none;
     color : #ffffff;
     text-align: center;
-    padding: 3px 14px 2px 14px;
+    padding: 0px 14px 0px 14px;
     height: 30px;
-}
-#navbar {
-    height: 30px;
+    }
+.navbar {
     display: inline-block;
     margin: auto;
     list-style-type: none;
-}
-#navbar li a:hover {
+    }
+.navbar li:hover {
     background-color: #111;
-}
+    }
+
 .paneltop {
     height: 30px;
     width: 100%;
@@ -53,10 +54,10 @@ body {
     border-top: 1px solid #111;
     text-align: center;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-}
+    }
 .active {
     background-color: #4CAF50;
-}
+    }
 #propic {
     background-image: url('../img/myself.jpg');
     display: block;
@@ -73,45 +74,109 @@ body {
     border-radius: 400px;
     border: 1px solid #333;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-}
+    }
 #mainsec {
+    }
+
+
+.responsive {
+    position: relative;
+    background-color: #333;
+    border-bottom: 1px solid #111;
+    border-top: 1px solid #111;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    }
+
+.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+.responsive li {
+    float: none;
+    display: inline;
+    background-color: #333 !important;
 }
 
+.responsive li a {
+    display: inline-block;
+    text-align: left; }
 
+.responsive li a:hover {
+        background-color: #111;
+    }
+
+
+
+.icon {
+    display : none !important;
+    }
 
 
 /* responsiveness */
 @media screen and (max-width: 504.46px) {
-    #navbar {
-        width : 0px;
-        height: 0px;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        visibility: hidden;
+
+    .navbar {
+        display: block;
+        width: 100%;
+    }
+    header div ul li.normal {
+        float: left;
+        display: inline;
+        text-align: left;
+    }
+
+    header ul.navbar li {
+        display: none;
+    }
+    .icon {
+        float: right;
+        display: block !important;
+        padding-right: 0px;
+    }
+    .active {
+        background-color: inherit;
+        float: left;
+        display: block !important;
+    }
+    header ul.navbar.responsive li:hover {
+        background-color: #111;
+    }
+    header ul.navbar li.icon {
+        float: right;
+        display: block;
+    }
+
+    header ul.navbar.responsive {
+        position: relative;
+    }
+
+    header ul.navbar.responsive li.icon {
         position: absolute;
+        right: 0;
+        top: 0;
     }
-    #navbar li {
-        font-size: 0px;
-        height: 0px;
-        width: 0px;
-        margin: 0;
-        padding: 0;
+
+    header ul.navbar.responsive li {
+        float: none;
+        display: inline;
     }
-    #navbar li a {
-        height: 0px;
-        width: 0px;
-        margin: 0;
-        padding: 0;
+
+    header ul.navbar.responsive li a {
+        display: block;
+        text-align: left;
     }
-}
+    }
 @media screen and (max-width: 1317px) {
     #propic {
         margin-top: -10vw;
+
     }
-}
+    }
 @media screen and (max-width: 750px) {
     #propic {
         margin-top: -75px;
+
     }
-}
+    }
