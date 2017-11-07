@@ -1,6 +1,6 @@
 @font-face {
     font-family: aponabang;
-    src: url(../fonts/AponaLohit.ttf);
+    src: url(../fonts/SolaimanLipi.ttf);
 }
 
 * {
@@ -26,14 +26,14 @@ body {
     font-size: 14pt;
     display: inline-block;
     float: left;
-    height: 30px;
+    height: 26px;
 }
 .navbar li a {
     text-decoration: none;
     color : #ffffff;
     text-align: center;
     padding: 0px 14px 0px 14px;
-    height: 30px;
+    height: 26px;
 }
 .navbar {
     display: inline-block;
@@ -45,7 +45,7 @@ body {
 }
 
 .paneltop {
-    height: 30px;
+    height: 26px;
     width: 100%;
     background-color: #333;
     border-bottom: 1px solid #111;
@@ -77,79 +77,76 @@ body {
     .responsive li.icon {
         position: absolute;
         right: 0;
-        top: 0; }
+        top: 0;
+    }
 
-        .responsive li {
-            float: none;
-            display: inline;
-            background-color: #333 !important;
-        }
-        .responsive li a {
-            display: inline-block;
-            text-align: left; }
+    .responsive li {
+        float: none;
+        display: inline;
+        background-color: #333 !important;
+    }
+    .responsive li a {
+        display: inline-block;
+        text-align: left;
+        height: 26px;
+    }
 
-            .responsive li a:hover {
-                background-color: #111;
-            }
+    .responsive li a:hover {
+        background-color: #111;
+    }
 
 
-            .navbar {
-                display: block;
-                width: 100%;
-            }
-            header div ul li.normal {
-                float: left;
-                display: inline;
-                text-align: left;
-            }
+    .navbar {
+        display: block;
+        width: 100%;
+    }
 
-            header ul.navbar li {
-                display: none;
-            }
-            .icon {
-                float: right;
-                display: block !important;
-                padding-right: 0px;
-            }
-            .active {
-                background-color: inherit;
-                float: left;
-                display: block !important;
-            }
-            header ul.navbar.responsive li:hover {
-                background-color: #111;
-            }
-            header ul.navbar li.icon {
-                float: right;
-                display: block;
-            }
+    header ul.navbar li {
+        display: none;
+    }
+    .icon {
+        float: right;
+        display: block !important;
+        padding-right: 0px;
+    }
+    .active {
+        background-color: inherit;
+        float: left;
+        display: block !important;
+    }
+    header ul.navbar.responsive li:hover {
+        background-color: #111;
+    }
+    header ul.navbar li.icon {
+        float: right;
+        display: block;
+    }
 
-            header ul.navbar.responsive {
-                position: relative;
-            }
+    header ul.navbar.responsive {
+        position: relative;
+    }
 
-            header ul.navbar.responsive li.icon {
-                position: absolute;
-                right: 0;
-                top: 0;
-            }
+    header ul.navbar.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
 
-            header ul.navbar.responsive li {
-                float: none;
-                display: inline;
-            }
+    header ul.navbar.responsive li {
+        float: none;
+        display: inline;
+    }
 
-            header ul.navbar.responsive li a {
-                display: block;
-                text-align: left;
-            }
-            .responsive {
-                background-color: #333;
-                border-bottom: 1px solid #111;
-                border-top: 1px solid #111;
-                text-align: center;
-                box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-            }
-        }
+    header ul.navbar.responsive li a {
+        display: block;
+        text-align: left;
+        height: 26px;
+    }
+    .responsive {
+        background-color: #333;
+        border-bottom: 1px solid #111;
+        border-top: 1px solid #111;
+        text-align: center;
+        box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     }
 }
